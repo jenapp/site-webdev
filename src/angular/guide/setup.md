@@ -31,7 +31,7 @@ The examples in this guide and tutorial are based on the
 [angular-examples/quickstart]({{site.ghNgEx}}/quickstart/tree/{{site.branch}})
 GitHub project.
 You can get the project's files by the following methods:
-* [Downloading them.]({{site.ghNgEx}}/quickstart/archive/{{site.branch}}.zip)
+* [Downloading them]({{site.ghNgEx}}/quickstart/archive/{{site.branch}}.zip).
 * Cloning the repo.
 * Using Webstorms's Git support.
 
@@ -96,6 +96,7 @@ Using WebStorm, or your favorite editor:
    `test/app_test.dart`.
 
 <div><a id="running-the-app"></a></div>
+
 ## Run the app
 
 In WebStorm:
