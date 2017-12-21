@@ -20,7 +20,9 @@ TODO(chalin):
 This part of the [Testing](/angular/guide/testing) how-to guide covers
 [component testing][] of AngularDart apps using the following packages:
 
-- [package:test][]:Dart's standard [testing][] package, which is similar to most
+<dl>
+<dt>[package:test][]
+<dd>Dart's standard [testing][] package, which is similar to most
   [unit testing][] frameworks, including [Jasmine][] for
   JavaScript. If you've used a modern testing framework before,
   then writing tests using `package:test` will have a familiar feel.
@@ -28,14 +30,16 @@ This part of the [Testing](/angular/guide/testing) how-to guide covers
   in-depth coverage of the package capabilities, see the `package:test`
   [documentation][package:test].
 
-- [package:angular_test][]:which complements the standard test package by
-  providing a means of interacting with Angular components created as test fixtures.
+<dt>[package:angular_test][]
+<dd>A complementary package that provides a means of interactiing with Angular components created as test fixtures.
 
-- [package:mockito][]:a library for creating
+<dt>[package:mockito][]
+<dd>A library for creating
   [mock objects](https://en.wikipedia.org/wiki/Mock_object).
   Not all component tests require mock objects, but in later sections, you'll learn
-  the fundamentals of using `package:mockito` as needed &mdash; for complete details
-  consult the package [documentation][package:mockito].
+  the fundamentals of using `package:mockito` as needed. For further details,
+  see the package [documentation][package:mockito].
+  </dl>
 
 ## Scope
 
